@@ -25,7 +25,7 @@ public class Main {
     }
 
     // Возвращает список из порядка 5 людей
-    public static List<Person> generateClients() {
+    private static List<Person> generateClients() {
 
         LinkedList list = new LinkedList();
         list.add(new Person("Иван Петров", 1));

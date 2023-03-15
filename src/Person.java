@@ -1,9 +1,10 @@
 public class Person {
-private String name;
-private int quantity;
-    Person(String name, int quantity){
-    this.name = name;
-    this.quantity = quantity;
+    private String name;
+    private int quantity;
+
+    Person(String name, int quantity) {
+        this.name = name;
+        this.quantity = quantity;
     }
 
     public String getName() {
